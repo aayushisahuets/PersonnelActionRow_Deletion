@@ -1,0 +1,15 @@
+textarea{
+	width: 400px;
+	height: 100px;
+	font-size: 15px;
+}
+table,th,tr{
+	border: 1px solid black;
+	width:40%;
+	border-collapse: collapse;
+	text-align: center;
+
+}
+h3{
+	color: blue;
+}

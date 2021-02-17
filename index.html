@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JavaScript Assignment</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+		<form id="submitForm" method="POST">
+			<!-- post () can't be bookmarked or it is secure as compare to get().
+			prevent default() is used for Clicking on a "Submit" button, prevent it from submitting a form / that's why submit a data by ENTER . -->
+			<input type="text" id="showText" placeholder="Enter Personnel" required>
+			<!-- required use for validation / field can't be empty. -->
+			<!-- <button type="submit">submit</button> -->
+		</form>
+		<table id="showTable" class="table">
+			<tr>
+				<th>Personnel</th>
+				<th>Action</th>
+			</tr>
+		</table>
+		<script src="js/index.js"></script>
+	</body>
+</html>
